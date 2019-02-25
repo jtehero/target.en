@@ -719,12 +719,14 @@ JSON (values do not need to be URL encoded):
 ```
 targetPageParams = function() { 
   return { 
-    "a": 1, 
-    "b": 2, 
+    "siteSection": "Articles", 
+    "page": "Ten best ways to use social media in 2020",
+    "customParameter123": "true",
+    "customParameterXYZ": "123",  
     "profile": { 
-        "age": 26, 
-        "country": { 
-          "city": "San Francisco" 
+        "membership": "subscriber",
+        "subscriptionPlan": "Platinum",
+        "subscriberZip": 83303
         } 
       } 
   }; 
@@ -766,12 +768,14 @@ JSON (values do not need to be URL encoded):
 ```
 targetPageParamsAll = function() { 
   return { 
-    "a": 1, 
-    "b": 2, 
+    "siteSection": "Articles", 
+    "page": "Ten best ways to use social media in 2020",
+    "customParameter123": "true",
+    "customParameterXYZ": "123",  
     "profile": { 
-        "age": 26, 
-        "country": { 
-          "city": "San Francisco" 
+        "membership": "subscriber",
+        "subscriptionPlan": "Platinum",
+        "subscriberZip": 83303
         } 
       } 
   }; 
